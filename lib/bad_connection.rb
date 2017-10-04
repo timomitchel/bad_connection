@@ -54,4 +54,5 @@ class BadConnection
   end
 end
 
-run = BadConnection.new
+connection = BadConnection.new
+connection.start
